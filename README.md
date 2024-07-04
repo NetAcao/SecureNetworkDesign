@@ -2,11 +2,11 @@
 
 Designed and implemented a robust, scalable network infrastructure for a small office of 5 staff, with plans to expand to 20 users.
 
-# Objective:
+**Objective:**
 
 The objective is to securely configure a scalable Cisco switch to support the growing business, with a focus on access control, network security, monitoring, and reliable configuration management.
 
-# Expected Outcomes:
+**Expected Outcomes:**
 
 The expected outcomes are a secure, scalable network infrastructure capable of handling current and future needs, robust access controls, comprehensive security measures to mitigate common attacks, centralized monitoring and logging, and reliable configuration management to preserve the desired settings.
 
