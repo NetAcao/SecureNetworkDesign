@@ -1,0 +1,32 @@
+enable
+configure terminal
+hostname [switch_name]
+enable secret [password]
+line console 0
+password [password]
+login
+line vty 0 15
+password [password]
+login
+service password-encryption
+interface vlan 1
+ip address [ip_address] [subnet_mask]
+no shutdown
+interface range [port_range]
+shutdown
+interface [port_number]
+switchport mode access
+switchport port-security
+switchport port-security maximum [max_devices]
+switchport port-security violation [protect|restrict|shutdown]
+ip dhcp snooping
+ip dhcp snooping vlan [vlan_id]
+ip arp inspection vlan [vlan_id]
+tacacs-server host [host_ip] key [secret_key]
+radius-server host [host_ip] key [secret_key]
+aaa new-model
+aaa authentication login default group [tacacs|radius]
+logging [host_ip]
+snmp-server community [community_string] [read-only|read-write]
+snmp-server host [host_ip] [community_string]
+copy running-config startup-config
