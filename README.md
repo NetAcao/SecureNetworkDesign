@@ -1,3 +1,7 @@
+
+
+![Screenshot 2024-07-03 171110](https://github.com/user-attachments/assets/a765141f-c2eb-4d11-ab37-54ddd54cb02a)
+
 # SecureNetworkDesign
 
 Designed and implemented a robust, scalable network infrastructure for a small office of 5 staff, with plans to expand to 20 users.
